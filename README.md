@@ -1,12 +1,60 @@
-# React + Vite
+# 🚀 Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated developer portfolio built with **React**, **TailwindCSS**, **Vite**, and **Lucide Icons** — designed to showcase your skills, projects, and personality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Table of Contents
 
-## Expanding the ESLint configuration
+- [Introduction](#-introduction)
+- [Tech Stack](#-tech-stack)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Screenshots](#-screenshots)
+- [Deployment](#-deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Introduction
+
+Build a **stunning developer portfolio** with animations, dark mode, and a project showcase — everything you need to stand out when applying for jobs or freelance work. This project walks through every detail with clean code and smooth UX, ideal for frontend developers looking to level up.
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** – Component-based UI development  
+- **Vite** – Lightning-fast build tool  
+- **TailwindCSS** – Utility-first CSS framework  
+- **Lucide Icons** – Beautiful and consistent icons  
+- **Radix UI** – Accessible UI primitives  
+- **TypeScript** *(optional)* – Type safety and editor tooling  
+- **GitHub + Vercel** – For continuous deployment
+
+---
+
+## ⚡️ Features
+
+- 🌗 **Dark Mode Toggle** – Theme saved in localStorage with smooth transitions  
+- 🌌 **Animated Backgrounds** – Stars, meteors, glowing UI, and scroll-based effects  
+- 📱 **Responsive Design** – Navigation adapts to all screen sizes with glassmorphism  
+- 👨‍💻 **Hero & About Section** – Introduce yourself with animated headings and call-to-actions  
+- 📊 **Skills Section** – Animated skill bars and filterable categories  
+- 🖼️ **Projects Showcase** – Display screenshots, tech used, and GitHub/demo links  
+- ✉️ **Contact Section** – Social links and contact form with toast notifications  
+- 🚀 **Deployable** – One-click deploy to Vercel
+
+---
+
+## ⚙️ Quick Start
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/Deepakdass1326/Personal-Portfolio.git
+cd Personal-Portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
