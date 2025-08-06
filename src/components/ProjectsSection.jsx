@@ -2,7 +2,17 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-        id: 1,
+    id: 3,
+    title: "Full-Stack E-Commerce App",
+    description:
+      "Scalable MERN stack e-commerce app with authentication (JWT), product CRUD, PayPal integration, and performance enhancements.",
+    image: "/images/ecommerce.png",
+    tags: ["React", "Node.js", "MongoDB"],
+    demoUrl: "https://mern-ecommerce-1-v90n.onrender.com",
+    githubUrl: "https://github.com/Deepakdass1326/MERN-Ecommerce",
+  },
+  {
+    id: 1,
     title: "Modern Business Landing Page",
     description:
       "Animated business landing page built with React, Tailwind CSS, and Framer Motion with performance optimizations.",
@@ -10,30 +20,19 @@ const projects = [
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://the-next-design.vercel.app/",
     githubUrl: "https://github.com/Deepakdass1326/business-landing-page",
-
   },
   {
-      id: 2,
-  title: "Mobius Landing Page",
-  description:
-    "A modern, responsive landing page built using React 19, Vite 6, and Tailwind CSS. Features HMR, ESLint, Font Awesome, and Lucide icons.",
-  image: "/images/MobuisEngine.png",
-  tags: ["React", "Vite", "TailwindCSS", "ESLint"],
-  demoUrl: "https://mobius-engine-landing-page-six.vercel.app/",
-  githubUrl: "https://github.com/Deepakdass1326/MobiusEngine-LandingPage",
-
-  },
-  {
-     id: 3,
-    title: "Full-Stack E-Commerce App",
+    id: 2,
+    title: "Mobius Landing Page",
     description:
-      "Scalable MERN stack e-commerce app with authentication (JWT), product CRUD, PayPal integration, and performance enhancements.",
-    image: "/images/ecommerce.png",
-    tags: ["React", "Node.js", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/Deepakdass1326/ecommerce-app",
+      "A modern, responsive landing page built using React 19, Vite 6, and Tailwind CSS. Features HMR, ESLint, Font Awesome, and Lucide icons.",
+    image: "/images/MobuisEngine.png",
+    tags: ["React", "Vite", "TailwindCSS", "ESLint"],
+    demoUrl: "https://mobius-engine-landing-page-six.vercel.app/",
+    githubUrl: "https://github.com/Deepakdass1326/MobiusEngine-LandingPage",
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
